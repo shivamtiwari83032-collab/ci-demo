@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        versions: [3.10,3.9]      
+        versions: [3.12,3.9]      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
